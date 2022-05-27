@@ -2,7 +2,7 @@ pipeline{
     agent any
     stages {
         stage("pc_performance_autotest"){
-            step{
+            steps{
             bat 'python test.py'
             }
         }
